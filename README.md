@@ -11,6 +11,9 @@ Now choose the type of hadoop cluster you want to setup i.e., manual setup in wh
     3. Docker setup and  loaded image of  os 'centos'.  
     4. Install ssh service , Hadoop version 1 and JDk installed inside centos and  commit a new image of this centos with name 'os:v5'.
     5. Add a hostname and ip in '[web]' in '/etc/ansible/hosts' file
-#### Note:
+#### Precaution:
 **In on-demand setup a LV  will be created from 'myvg' VG on the system (let's say main system) whose hostname and ip is set in '/etc/ansible/hosts' file and will be shared to the system where you are setting Docker setup  through NFS server. This will create entry in 'fstab' file of  main system. 
 So if you remove th LV, you need to  remove entry from fstab file otherwise your system will be corrupted (but can be repair ).**
+
+#### Note:
+    This project is not focussed on security as well as look and field of the webpages. 
