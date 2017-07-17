@@ -3,7 +3,7 @@ High Performance Distributed Computing for Big Data Using Hadoop Framework and r
 ## Getting Started
 In order to run hadoop setup first write your ip address in browser followed by '/login.html' and type username and password which can be set according to your choice in 'login.py' file manually.
 
-Now choose the type of hadoop cluster you want to setup i.e., manual setup in which every thing will be entered according to user's wish or on-demand setup where user has to just fill the  input boxes according to his requirements and everything will be setup automatically inside *dockers*.
+Now choose the type of hadoop cluster you want to setup i.e., manual setup in which every thing will be entered according to user's wish or on-demand setup which is one-click setup where user has to just fill the  input boxes according to his requirements and everything will be setup automatically inside *dockers*.
 
 ### *Prerequisites*
     1. Redhat Linux with Jq(for json), ansible, Hadoop and JDk installed .
